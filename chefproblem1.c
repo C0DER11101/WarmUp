@@ -54,7 +54,6 @@ int main(void)
 		if(lastSym=='H')
 			strcpy(status[i], "Invalid");
 
-
 		free(report);
 	}
 
