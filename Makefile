@@ -1,4 +1,5 @@
-obj=chefproblem2.o
+obj=problem5.o
+#obj=chefproblem2.o
 #obj=chefproblem1.o
 #obj=problem4.o
 #obj=problem3.o
@@ -8,8 +9,8 @@ obj=chefproblem2.o
 exe: $(obj)
 	gcc $(obj) -o exe
 
-$(obj): chefproblem2.c
-	gcc -c chefproblem2.c
+$(obj): problem5.c
+	gcc -c problem5.c
 
 #$(obj): chefproblem1.c\
 	gcc -c chefproblem1.c
